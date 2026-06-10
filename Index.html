@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Delivery App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pizza Delivery Application</h1>
+</header>
+
+<div class="container">
+    <div class="pizza-card">
+        <img src="https://via.placeholder.com/200" alt="Pizza">
+        <h2>Margherita Pizza</h2>
+        <p>Price: ₹199</p>
+        <button onclick="addToCart('Margherita Pizza',199)">Add to Cart</button>
+    </div>
+
+    <div class="pizza-card">
+        <img src="https://via.placeholder.com/200" alt="Pizza">
+        <h2>Veggie Pizza</h2>
+        <p>Price: ₹249</p>
+        <button onclick="addToCart('Veggie Pizza',249)">Add to Cart</button>
+    </div>
+
+    <div class="pizza-card">
+        <img src="https://via.placeholder.com/200" alt="Pizza">
+        <h2>Cheese Burst Pizza</h2>
+        <p>Price: ₹299</p>
+        <button onclick="addToCart('Cheese Burst Pizza',299)">Add to Cart</button>
+    </div>
+</div>
+
+<div class="cart">
+    <h2>Cart</h2>
+    <ul id="cartItems"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+      </html>
